@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contato Luan</title>
+		<meta charset="utf-8">
+
+		<!-- links com os arquivos citados abaixos, para estilização com CSS -->
+		<link rel="stylesheet" type="text/css" href="styles/styles.css">
+		<link rel="stylesheet" type="text/css" href="styles/contato.css">
+		
+	</head>
+
+	<body>
+
+		<div id="principal">
+			
+			<!-- criado um menu "navegation" para exibir os links disponíveis no site -->
+			<nav class="navegation">
+				<a class="navegation-link active" href="index.html">HOME</a>
+				<a class="navegation-link" href="sobre.html">SOBRE</a>
+				<a class="navegation-link" href="formacao.html">FORMAÇÃO</a>
+				<a class="navegation-link" href="portfolio.html">PORTFÓLIO</a>
+				<a class="navegation-link" href="contato.html">CONTATO</a> 
+			</nav>
+
+			<!-- criado elemento "article" para armazenar todas as informações e estilizações para a parte
+			do formulário para contato do site -->
+			<article class="article">
+				<h2 class="title">Me contate:</h2>
+				
+				<!-- criação do form -->
+				<form class="form">
+					
+					<!-- criação de cada field específico para contato -->
+					<div class="field">
+						<label class="field-label">Nome:</label>
+						<input class="field-input" type="text" placeholder="Digite seu nome aqui" required min="2"/>
+					</div>
+			
+					<div class="field">
+						<label class="field-label">E-mail:</label>
+						<input class="field-input" type="email" placeholder="Digite seu e-mail aqui" required/>
+					</div>
+			
+					<div class="field">
+						<label class="field-label">Whatsapp:</label>
+						<input class="field-input" type="tel" placeholder="Digite seu telefone aqui" required/>
+					</div>
+			
+					<div class="field">
+						<label class="field-label">Mensagem:</label>
+						<textarea class="field-input textarea" placeholder="Deixe seu recado aqui" required></textarea>
+					</div>
+			
+					<!-- criação do botão para enviar o formulário -->
+					<button class="form-button">Enviar Mensagem</button>
+
+				</form>
+
+			</article>
+
+		</div>
+
+	</body>
+
+</html>

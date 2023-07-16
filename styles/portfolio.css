@@ -1,0 +1,38 @@
+/* Arquivo de estilização específico ao link/pagina PORTFOLIO */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.card p {
+    font-size: 14px;
+}
+
+.titulo-portfolio {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#conteudo-portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

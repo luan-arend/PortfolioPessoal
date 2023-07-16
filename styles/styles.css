@@ -1,0 +1,82 @@
+/* Arquivo de estilização geral, incluindo todos os links de HTML deste projeto */
+body{
+	background: #cfb3da;
+	background-size: 300px 100px ;
+	font: 16px Arial, Helvetica, sans-serif;
+	display: flex;
+	justify-content: center;
+}
+
+#principal {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.foto-principal {
+	background-size: cover;
+	background-position: center;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin: 50px auto 20px;
+}
+
+#conteudo {
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+#titulo-pag {
+	font-size: 32px;
+	margin-bottom: 20px;
+	line-height: 1.3;
+	font-family: "Arial", sans-serif;
+	color: #333;
+	font-weight: bold;
+	transition: color 0.3s, background-color 0.3s;
+}
+  
+#titulo-pag:hover {
+	color: #fff;
+	background-color: #333;
+}
+
+#conteudo h1 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+#conteudo h3 {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+#conteudo p {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+a {
+	color: #4b566a;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.navegation { 
+	padding: 18px;
+	text-align: center;
+}
+
+.navegation-link {
+	text-decoration: none;
+	color: #333;
+	margin-right: 10px;
+}
+
+.navegation-link.active {
+	font-weight: bold;
+}
